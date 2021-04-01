@@ -6,7 +6,7 @@
 
 ## Information about The Website
 
-This website is the face of Greasby Opticians, a buisness in Greasby, England. I created the site using Vue js, Gridsome and Tailwind CSS.
+This website is the face of Simply Tiling, a tiling buisness in Norfolk, England. I created the site using Nuxt and Tailwind CSS.
 See the [changelog](CHANGELOG.md) to see all updates to this project.
 
 ## Technologies Used
