@@ -52,7 +52,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 [changelog](CHANGELOG.md)
 
 <p>Created with 
-<a href="https://nuxtjs.org" target="_blank" rel="noopener"><img height="16" src="github-images/nuxt.svg" alt="nuxt"></a>
-<a href="https://vuejs.org" target="_blank" rel="noopener"><img height="16" src="github-images/vue.png" alt="vue"></a>
-<a href="https://tailwindcss.com" target="_blank" rel="noopener"><img height="16" src="github-images/tailwindcss.svg" alt="tailwind"></a>
+<a href="https://nuxtjs.org" target="_blank" rel="noopener"><img height="16" src="readme-images/nuxt.svg" alt="nuxt"></a>
+<a href="https://vuejs.org" target="_blank" rel="noopener"><img height="16" src="readme-images/vue.png" alt="vue"></a>
+<a href="https://tailwindcss.com" target="_blank" rel="noopener"><img height="16" src="readme-images/tailwindcss.svg" alt="tailwind"></a>
  by <a href="https://amykble.dev" target="_blank" rel="noopener">Amy Keable</a></p>
