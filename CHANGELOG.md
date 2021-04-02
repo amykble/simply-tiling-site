@@ -2,9 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
-## Todo
+## [0.1.3] | 2021-04-02
 
-- Fix st-button overflow
+#### Added ✨
+
+- Started contact page design
+
+#### Changed ♻
+
+- st-button hover effects changed to a cleaner animation
+
+#### Fixed 🛠
+
+- Noticed Tailwind v1 does not have certain outline properties I need as default, so I am currently using a custom css work around called "st-input". Might implement a tailwind config fix in the future
+
+---
 
 ## [0.1.2] | 2021-04-01
 
