@@ -35,7 +35,18 @@
                 loading="lazy"
               ></iframe>
             </div>
-            <form action="" class="w-1/2 flex flex-col" id="form">
+            <form
+              method="POST"
+              data-netlify="true"
+              netlify-honeypot="bot-field"
+              class="w-1/2 flex flex-col"
+              id="form"
+            >
+              <p class="hidden">
+                <label
+                  >Don’t fill this out if you’re human: <input name="bot-field"
+                /></label>
+              </p>
               <div class="flex items-center justify-center">
                 <h2
                   class="st-header inline-block mt-3 mb-6 text-center text-3xl"
