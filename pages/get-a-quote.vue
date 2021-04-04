@@ -40,6 +40,7 @@
               data-netlify="true"
               data-netlify-recaptcha="true"
               netlify-honeypot="bot-field"
+              subject="Simply Tiling Contact Submission"
               class="w-1/2 flex flex-col"
               id="contact-form"
             >
