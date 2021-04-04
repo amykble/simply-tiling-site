@@ -38,6 +38,7 @@
             <form
               method="POST"
               data-netlify="true"
+              data-netlify-recaptcha="true"
               netlify-honeypot="bot-field"
               class="w-1/2 flex flex-col"
               id="form"
@@ -61,6 +62,7 @@
                     class="st-input mb-4 px-2 py-1 block w-full bg-white hover:shadow-inner focus:shadow-inner"
                     type="text"
                     id="fname"
+                    required
                   />
                 </div>
                 <div class="w-full">
@@ -69,6 +71,7 @@
                     class="st-input mb-4 px-2 py-1 block w-full bg-white hover:shadow-inner focus:shadow-inner"
                     type="text"
                     id="lname"
+                    required
                   />
                 </div>
               </div>
@@ -79,6 +82,7 @@
                     class="st-input mb-4 px-2 py-1 block w-full bg-white hover:shadow-inner focus:shadow-inner"
                     type="email"
                     id="email"
+                    required
                   />
                 </div>
                 <div class="w-full">
@@ -98,6 +102,7 @@
                 class="st-input mb-4 px-2 py-1 block w-full bg-white hover:shadow-inner focus:shadow-inner"
                 type="text"
                 id="subject"
+                required
               />
               <label class="mb-1 block" for="message">Message</label>
               <textarea
@@ -105,7 +110,9 @@
                 id="message"
                 rows="4"
                 placeholder="Summarise the services from Simply Tiling you require."
+                required
               ></textarea>
+              <div data-netlify-recaptcha="true"></div>
               <button
                 class="st-button py-3 px-5 bg-gray-900 text-yellow-400 hover:text-gray-100"
                 type="submit"
