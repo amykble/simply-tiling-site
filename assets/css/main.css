@@ -68,3 +68,17 @@ a:focus,
 .st-link:focus::after {
   transform: scaleY(1);
 }
+
+.st-header {
+  position: relative;
+}
+
+.st-header::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 40%;
+  height: 2px;
+  background-color: #f6e05e;
+}

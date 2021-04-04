@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.4] | 2021-04-04
+
+#### Added ✨
+
+- Added the font awesome nuxt module
+- Continued contact page design
+- Created "st-header" for heading design accent
+
+#### Changed ♻
+
+- x
+
+#### Fixed 🛠
+
+- x
+
+---
+
 ## [0.1.3] | 2021-04-02
 
 #### Added ✨
