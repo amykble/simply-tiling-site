@@ -41,7 +41,7 @@
               data-netlify-recaptcha="true"
               netlify-honeypot="bot-field"
               class="w-1/2 flex flex-col"
-              id="form"
+              id="contact-form"
             >
               <p class="hidden">
                 <label
@@ -112,7 +112,7 @@
                 placeholder="Summarise the services from Simply Tiling you require."
                 required
               ></textarea>
-              <div data-netlify-recaptcha="true"></div>
+              <div data-netlify-recaptcha="true" class="mb-4"></div>
               <button
                 class="st-button py-3 px-5 bg-gray-900 text-yellow-400 hover:text-gray-100"
                 type="submit"
