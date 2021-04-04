@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.5] | 2021-04-04
+
+#### Added ✨
+
+- Added form submissions through Netlify
+- Added honeypot and reCAPTCHA for bot protection
+
+#### Changed ♻
+
+- x
+
+#### Fixed 🛠
+
+- x
+
+---
+
 ## [0.1.4] | 2021-04-04
 
 #### Added ✨

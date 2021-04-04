@@ -61,6 +61,7 @@
                   <input
                     class="st-input mb-4 px-2 py-1 block w-full bg-white hover:shadow-inner focus:shadow-inner"
                     type="text"
+                    name="fname"
                     id="fname"
                     required
                   />
@@ -70,6 +71,7 @@
                   <input
                     class="st-input mb-4 px-2 py-1 block w-full bg-white hover:shadow-inner focus:shadow-inner"
                     type="text"
+                    name="lname"
                     id="lname"
                     required
                   />
@@ -81,6 +83,7 @@
                   <input
                     class="st-input mb-4 px-2 py-1 block w-full bg-white hover:shadow-inner focus:shadow-inner"
                     type="email"
+                    name="email"
                     id="email"
                     required
                   />
@@ -93,6 +96,7 @@
                   <input
                     class="st-input mb-4 px-2 py-1 block w-full bg-white hover:shadow-inner focus:shadow-inner"
                     type="tel"
+                    name="tel"
                     id="tel"
                   />
                 </div>
@@ -101,12 +105,14 @@
               <input
                 class="st-input mb-4 px-2 py-1 block w-full bg-white hover:shadow-inner focus:shadow-inner"
                 type="text"
+                name="subject"
                 id="subject"
                 required
               />
               <label class="mb-1 block" for="message">Message</label>
               <textarea
                 class="st-input mb-4 px-2 py-1 block w-full bg-white hover:shadow-inner focus:shadow-inner"
+                name="message"
                 id="message"
                 rows="4"
                 placeholder="Summarise the services from Simply Tiling you require."
