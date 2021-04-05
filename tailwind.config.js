@@ -7,7 +7,7 @@ module.exports = {
     }
   },
   variants: {
-    backgroundColor: ["group-hover", "group-focus"]
+    backgroundColor: ["group-focus"]
   },
   plugins: [],
   purge: {

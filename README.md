@@ -20,13 +20,15 @@ See the [changelog](CHANGELOG.md) to see all updates to this project.
 - **[Vue](https://vuejs.org)**
   is a JavaScript framework that is easy to use and build websites out of components and intergrate functionality into a site with ease.
 
-## Developer notes
+## Developer Notes
 
 - Any class that begins with "st" e.g `st-button` is a style added not using the tailwind css framework. These are for custom styles specific to Simply Tiling that tailwind cannot adequately provide.
 
 - Most custom styles can be found in the main.css file in the assets folder.
 
-- This project uses tailwind v1. Therefore, some functionailty such as group hover and group focus must be enabled in the tailwind config at the root of this project.
+- This project uses tailwind v2+. Some functionailty such as group focus must be enabled in the tailwind config at the root of this project.
+
+- This project is **not** hosting agnostic, there is form functionality that relies on Netlify's form notifications to work properly.
 
 ## Using Nuxt
 

@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.6] | 2021-04-05
+
+#### Added ✨
+
+- x
+
+#### Changed ♻
+
+- Upgraded Nuxt to version 2.15.4
+- Upgraded the Tailwind Nuxt plugin to version 4.0.3
+
+#### Fixed 🛠
+
+- x
+
+---
+
 ## [0.1.5] | 2021-04-04
 
 #### Added ✨
