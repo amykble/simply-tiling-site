@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## Todo
+
+- Create button and link components
+
+## [0.1.7] | 2021-04-06
+
+#### Added ✨
+
+- Image placeholders for the gallery page
+- Custom error page added
+- Nuxt Links implemented properly
+
+#### Changed ♻
+
+- x
+
+#### Fixed 🛠
+
+- x
+
+---
+
 ## [0.1.6] | 2021-04-05
 
 #### Added ✨

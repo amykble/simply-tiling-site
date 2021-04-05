@@ -20,11 +20,11 @@
           </button>
         </li>
         <li class="ml-3 px-3 border-2 border-yellow-400">
-          <nuxt-link
+          <NuxtLink
             to="/get-a-quote"
             v-on:click.native="toggleNav = false"
             class="st-button py-3 px-5 bg-gray-900 text-yellow-400 hover:text-gray-100"
-            >Get A Quote</nuxt-link
+            >Get A Quote</NuxtLink
           >
         </li>
       </ul>
@@ -34,27 +34,27 @@
       >
         <ul class="w-full h-full flex flex-col items-center text-xl">
           <li class="pb-6">
-            <nuxt-link
+            <NuxtLink
               to="/"
               v-on:click.native="toggleNav = false"
               class="text-gray-900"
-              >Home</nuxt-link
+              >Home</NuxtLink
             >
           </li>
           <li class="pb-6">
-            <nuxt-link
+            <NuxtLink
               to="/services"
               v-on:click.native="toggleNav = false"
               class="text-gray-900"
-              >Our Services</nuxt-link
+              >Our Services</NuxtLink
             >
           </li>
           <li>
-            <nuxt-link
+            <NuxtLink
               to="/gallery"
               v-on:click.native="toggleNav = false"
               class="text-gray-900"
-              >Gallery</nuxt-link
+              >Gallery</NuxtLink
             >
           </li>
         </ul>
@@ -62,29 +62,29 @@
     </section>
     <!-- Desktop Header -->
     <nav class="hidden md:flex justify-between max-w-5xl my-0 mx-auto">
-      <nuxt-link
+      <NuxtLink
         to="/"
         class="flex align-center text-gray-900 hover:text-yellow-400 focus:text-yellow-400 transition-all duration-200"
         ><img class="h-6 mr-3" src="/st-logo.png" /><span
           >Simply Tiling</span
-        ></nuxt-link
+        ></NuxtLink
       >
       <ul class="flex">
         <li class="mx-3">
-          <nuxt-link to="/services" class="st-link px-3 text-gray-900"
-            >Our Services</nuxt-link
+          <NuxtLink to="/services" class="st-link px-3 text-gray-900"
+            >Our Services</NuxtLink
           >
         </li>
         <li class=" mx-3">
-          <nuxt-link to="/gallery" class="st-link px-3 text-gray-900"
-            >Gallery</nuxt-link
+          <NuxtLink to="/gallery" class="st-link px-3 text-gray-900"
+            >Gallery</NuxtLink
           >
         </li>
         <li class="ml-3 px-3 border-2 border-yellow-400">
-          <nuxt-link
+          <NuxtLink
             to="/get-a-quote"
             class="st-button py-3 px-5 bg-gray-900 text-yellow-400 hover:text-gray-100"
-            >Get A Quote</nuxt-link
+            >Get A Quote</NuxtLink
           >
         </li>
       </ul>
