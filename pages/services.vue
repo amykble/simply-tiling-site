@@ -1,6 +1,6 @@
 <template>
   <section class="w-screen px-3">
-    <div class="max-w-5xl my-0 mx-auto">
+    <div class="max-w-6xl my-0 mx-auto">
       <main>
         <h1>Our Services</h1>
         <p>These our the services Simply Tiling offer!</p>

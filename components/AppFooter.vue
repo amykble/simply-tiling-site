@@ -1,7 +1,7 @@
 <template>
-  <footer class="font-mono absolute z-20 bottom-0 w-screen bg-gray-900">
+  <footer class="font-mono bg-gray-900">
     <section class="py-8 px-3">
-      <nav class="flex gap-20 max-w-5xl my-0 mx-auto">
+      <nav class="flex gap-20 max-w-6xl my-0 mx-auto">
         <NuxtLink
           to="/"
           class="flex align-center text-gray-100 hover:text-yellow-400 focus:text-yellow-400 transition-all duration-200"
@@ -34,9 +34,9 @@
         </ul>
       </nav>
     </section>
-    <section class="credits w-screen bg-black">
+    <section class="credits bg-black">
       <div class="py-4 px-3">
-        <div class="flex justify-between max-w-5xl my-0 mx-auto text-xs">
+        <div class="flex justify-between max-w-6xl my-0 mx-auto text-xs">
           <p class="text-gray-400">
             Copyright &copy; <span>{{ year }}</span>
           </p>

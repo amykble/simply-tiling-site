@@ -30,6 +30,7 @@ a:focus,
 }
 
 .st-button {
+  display: inline-block;
   width: max-content;
 }
 
@@ -77,7 +78,7 @@ a:focus,
   position: absolute;
   content: "";
   left: 0;
-  bottom: 0;
+  bottom: -0.2em;
   width: 40%;
   height: 2px;
   background-color: #f6e05e;

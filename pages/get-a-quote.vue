@@ -1,9 +1,9 @@
 <template>
-  <section class="w-screen min-h-screen px-3 bg-gray-900 font-mono">
+  <section class="w-screen min-h-screen pt-48 px-3 bg-gray-900 font-mono">
     <div class="max-w-6xl my-0 mx-auto">
       <main class="w-full flex flex-col items-center">
         <h1 class="text-gray-100 text-4xl">Get A Quote</h1>
-        <div class="w-full p-3 rounded-md bg-gray-200">
+        <div class="w-full p-3 mt-12 rounded-md bg-gray-200">
           <div class="h-full w-full flex justify-between gap-6 text-gray-900">
             <div class="w-1/2 p-3 flex flex-col rounded-md bg-gray-100">
               <div class="flex items-center justify-center">

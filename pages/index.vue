@@ -1,12 +1,5 @@
 <template>
-  <section class="w-screen px-3">
-    <div class="max-w-5xl my-0 mx-auto">
-      <main>
-        <h1>Index</h1>
-        <p>Welcome to Simply Tiling</p>
-      </main>
-    </div>
-  </section>
+  <HomeLanding />
 </template>
 
 <script>
